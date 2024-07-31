@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_hero_hero_insights",
+  "info": {
+    "displayName": "hero_insights",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "hero_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_popup_csr_popups",
+  "info": {
+    "displayName": "csr_popup",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "images": {
+      "displayName": "images",
+      "type": "component",
+      "repeatable": true,
+      "component": "images-popup.images"
+    },
+    "main_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

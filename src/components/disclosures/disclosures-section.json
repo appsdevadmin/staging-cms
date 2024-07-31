@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_disclosures_disclosures_sections",
+  "info": {
+    "displayName": "disclosures_section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

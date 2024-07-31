@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_other_image_blocks_sections",
+  "info": {
+    "displayName": "image_blocks_section"
+  },
+  "options": {},
+  "attributes": {
+    "blocks": {
+      "displayName": "blocks",
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.blocks"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

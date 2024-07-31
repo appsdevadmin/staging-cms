@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "blog_pages",
+  "info": {
+    "singularName": "blog-page",
+    "pluralName": "blog-pages",
+    "displayName": "Insights Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "all_posts_section": {
+      "displayName": "all_posts_section",
+      "type": "component",
+      "repeatable": false,
+      "component": "data.all-posts-section"
+    },
+    "hero": {
+      "displayName": "hero_insights",
+      "type": "component",
+      "repeatable": false,
+      "component": "hero.hero-insights"
+    }
+  }
+}

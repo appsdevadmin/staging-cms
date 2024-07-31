@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_gas_activities",
+  "info": {
+    "displayName": "activities"
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_data_investment_opportunities",
+  "info": {
+    "displayName": "investment_opportunities"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    },
+    "section_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

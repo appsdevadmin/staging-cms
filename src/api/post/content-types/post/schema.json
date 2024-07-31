@@ -1,0 +1,77 @@
+{
+  "kind": "collectionType",
+  "collectionName": "posts",
+  "info": {
+    "singularName": "post",
+    "pluralName": "posts",
+    "displayName": "Posts",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "excerpt": {
+      "type": "text"
+    },
+    "upload_pdf_file": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "pdf_link": {
+      "type": "string",
+      "default": "#"
+    },
+    "post_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "post_date": {
+      "type": "date",
+      "default": "2022-08-14"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "post_category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::post-category.post-category"
+    },
+    "post_type": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::post-type.post-type"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "content": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    }
+  }
+}

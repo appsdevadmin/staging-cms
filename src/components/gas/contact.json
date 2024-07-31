@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_gas_contacts",
+  "info": {
+    "displayName": "contact",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone_number": {
+      "type": "string"
+    },
+    "addresses": {
+      "displayName": "addresses",
+      "type": "component",
+      "repeatable": true,
+      "component": "gas.addresses"
+    },
+    "address_title": {
+      "type": "string"
+    }
+  }
+}

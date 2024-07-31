@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "privacy_policy_pages",
+  "info": {
+    "singularName": "privacy-policy-page",
+    "pluralName": "privacy-policy-pages",
+    "displayName": "Privacy Policy Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    },
+    "effective_date": {
+      "type": "date"
+    },
+    "updated_date": {
+      "type": "date"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "page_content": {
+      "type": "component",
+      "repeatable": true,
+      "component": "term-pages.content"
+    },
+    "hero_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

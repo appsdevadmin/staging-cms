@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_data_all_posts_sections",
+  "info": {
+    "displayName": "all_posts_section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

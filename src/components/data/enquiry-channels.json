@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_data_enquiry_channels",
+  "info": {
+    "displayName": "enquiry_channels",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "phone": {
+      "type": "string"
+    },
+    "email_address": {
+      "type": "email"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

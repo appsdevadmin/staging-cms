@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_data_guiding_principles_sections",
+  "info": {
+    "displayName": "guiding_principles_section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "block_1": {
+      "type": "text"
+    },
+    "block_2": {
+      "type": "text"
+    },
+    "cta_text": {
+      "type": "string"
+    }
+  }
+}

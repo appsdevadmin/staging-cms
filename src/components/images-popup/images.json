@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_images_popup_images",
+  "info": {
+    "displayName": "images"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

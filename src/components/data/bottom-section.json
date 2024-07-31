@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_data_bottom_sections",
+  "info": {
+    "displayName": "bottom_section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "section_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "text_block": {
+      "type": "text"
+    }
+  }
+}

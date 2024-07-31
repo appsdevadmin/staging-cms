@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_data_address_details",
+  "info": {
+    "displayName": "address details",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "address": {
+      "type": "text"
+    },
+    "cta_text": {
+      "type": "string"
+    },
+    "address_map_link": {
+      "type": "string",
+      "default": "#"
+    },
+    "address_tab_name": {
+      "type": "enumeration",
+      "enum": [
+        "Global Presence",
+        "Corporate Headquarters"
+      ]
+    },
+    "section_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

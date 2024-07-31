@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_data_values_sections",
+  "info": {
+    "displayName": "values_section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "section_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "block_item": {
+      "displayName": "value_blocks",
+      "type": "component",
+      "repeatable": true,
+      "component": "data.value-blocks"
+    }
+  }
+}

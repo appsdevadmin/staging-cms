@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_ethics_contact_transparency_and_ethics",
+  "info": {
+    "displayName": "Contact transparency and Ethics"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "cta_link": {
+      "type": "string"
+    },
+    "cta_text": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

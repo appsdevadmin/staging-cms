@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_reports_reports",
+  "info": {
+    "displayName": "reports"
+  },
+  "options": {},
+  "attributes": {
+    "year": {
+      "type": "integer"
+    },
+    "cta_text": {
+      "type": "string"
+    },
+    "file": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

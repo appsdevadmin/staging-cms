@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_data_leadership_sections",
+  "info": {
+    "displayName": "leadership_section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "tagline": {
+      "type": "text"
+    }
+  }
+}

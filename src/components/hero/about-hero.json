@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_hero_about_heroes",
+  "info": {
+    "displayName": "about_hero"
+  },
+  "options": {},
+  "attributes": {
+    "hero_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_diversity_blocks_blocks",
+  "info": {
+    "displayName": "blocks"
+  },
+  "options": {},
+  "attributes": {
+    "section_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_gas_csr_activites",
+  "info": {
+    "displayName": "csr_activites",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cta_link": {
+      "type": "string"
+    },
+    "cta_text": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

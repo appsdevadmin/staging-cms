@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_growth_growths",
+  "info": {
+    "displayName": "growth"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "icons": {
+      "displayName": "icons",
+      "type": "component",
+      "repeatable": true,
+      "component": "growth.icons"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_data_middle_sections",
+  "info": {
+    "displayName": "middle_section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "section_image_1": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "text_block_1": {
+      "type": "text"
+    },
+    "text_block_2": {
+      "type": "text"
+    },
+    "section_image_2": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "text_block_1_title": {
+      "type": "string"
+    }
+  }
+}

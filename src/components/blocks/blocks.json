@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_blocks_blocks",
+  "info": {
+    "displayName": "blocks"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_work_work_with_nnpcs",
+  "info": {
+    "displayName": "work_with_nnpc",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "work_types": {
+      "displayName": "work_types",
+      "type": "component",
+      "repeatable": true,
+      "component": "work-types.work-types"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

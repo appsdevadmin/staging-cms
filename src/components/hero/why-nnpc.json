@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_hero_why_nnpcs",
+  "info": {
+    "displayName": "Why NNPC",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "text"
+    },
+    "title": {
+      "type": "string"
+    },
+    "block_1_title": {
+      "type": "string"
+    },
+    "block_1_description": {
+      "type": "string"
+    },
+    "block_2_title": {
+      "type": "string"
+    },
+    "block_2_description": {
+      "type": "string"
+    }
+  }
+}

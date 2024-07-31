@@ -1,0 +1,69 @@
+{
+  "kind": "singleType",
+  "collectionName": "who_we_are_pages",
+  "info": {
+    "singularName": "who-we-are-page",
+    "pluralName": "who-we-are-pages",
+    "displayName": "Who we are page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "about_hero": {
+      "displayName": "about_hero",
+      "type": "component",
+      "repeatable": false,
+      "component": "hero.about-hero"
+    },
+    "mandate_section": {
+      "displayName": "Mandate Section",
+      "type": "component",
+      "repeatable": false,
+      "component": "data.mandate-section"
+    },
+    "values_section": {
+      "displayName": "values_section",
+      "type": "component",
+      "repeatable": true,
+      "component": "data.values-section"
+    },
+    "strategy_section": {
+      "displayName": "strategy_section",
+      "type": "component",
+      "repeatable": false,
+      "component": "data.strategy-section"
+    },
+    "leadership_section": {
+      "displayName": "leadership_section",
+      "type": "component",
+      "repeatable": false,
+      "component": "data.leadership-section"
+    },
+    "what_we_do_top": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.top-section"
+    },
+    "what_we_do_middle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.middle-section"
+    },
+    "what_we_do_bottom": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.bottom-section"
+    },
+    "mandate_inner_section": {
+      "type": "component",
+      "repeatable": true,
+      "component": "data.mandate-inner"
+    },
+    "what_we_do_entry_title": {
+      "type": "string"
+    }
+  }
+}

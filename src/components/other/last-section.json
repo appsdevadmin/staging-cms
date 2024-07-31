@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_other_last_sections",
+  "info": {
+    "displayName": "last_section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content_1": {
+      "type": "text"
+    },
+    "content_2": {
+      "type": "text"
+    },
+    "cta_text": {
+      "type": "string"
+    },
+    "cta_link": {
+      "type": "string"
+    }
+  }
+}

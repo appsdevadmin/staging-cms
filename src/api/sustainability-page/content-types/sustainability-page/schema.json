@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "sustainability_pages",
+  "info": {
+    "singularName": "sustainability-page",
+    "pluralName": "sustainability-pages",
+    "displayName": "Sustainability page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sustasinability_hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hero.about-hero"
+    },
+    "sustainability_leader_section": {
+      "displayName": "sustainability_leader_section",
+      "type": "component",
+      "repeatable": false,
+      "component": "data.sustainability-leader-section"
+    },
+    "energy_transition_section": {
+      "displayName": "energy_transition_section",
+      "type": "component",
+      "repeatable": false,
+      "component": "data.energy-transition-section"
+    },
+    "sustainability_image_flex_section": {
+      "displayName": "Sustainability Image Flex Section",
+      "type": "component",
+      "repeatable": true,
+      "component": "data.sustainability-image-flex-section"
+    },
+    "guiding_principles": {
+      "displayName": "guiding_principles_section",
+      "type": "component",
+      "repeatable": false,
+      "component": "data.guiding-principles-section"
+    }
+  }
+}

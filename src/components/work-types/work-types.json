@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_work_types_work_types",
+  "info": {
+    "displayName": "work_types",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "cta_text": {
+      "type": "string"
+    },
+    "cta_link": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

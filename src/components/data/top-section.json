@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_data_top_sections",
+  "info": {
+    "displayName": "top_section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

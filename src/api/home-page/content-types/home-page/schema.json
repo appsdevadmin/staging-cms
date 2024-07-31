@@ -1,0 +1,49 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "Home Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero_slider": {
+      "displayName": "home hero slider",
+      "type": "component",
+      "repeatable": true,
+      "component": "hero.home-hero-slider"
+    },
+    "hero_cta_text": {
+      "type": "string"
+    },
+    "why_nnpc": {
+      "displayName": "Why NNPC",
+      "type": "component",
+      "repeatable": false,
+      "component": "hero.why-nnpc"
+    },
+    "years_of_experience": {
+      "displayName": "years_of_experience",
+      "type": "component",
+      "repeatable": false,
+      "component": "year.years-of-experience"
+    },
+    "investor_opportunities": {
+      "displayName": "investor opportunities ",
+      "type": "component",
+      "repeatable": false,
+      "component": "hero.investor-opportunities"
+    },
+    "home_blog_section": {
+      "displayName": "home_blog_section",
+      "type": "component",
+      "repeatable": false,
+      "component": "data.home-blog-section"
+    }
+  }
+}

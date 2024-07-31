@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_other_reports",
+  "info": {
+    "displayName": "report"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "reports": {
+      "displayName": "reports",
+      "type": "component",
+      "repeatable": true,
+      "component": "reports.reports"
+    }
+  }
+}

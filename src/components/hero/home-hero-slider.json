@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_hero_home_hero_sliders",
+  "info": {
+    "displayName": "home hero slider",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "hero_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "hero_title": {
+      "type": "text"
+    },
+    "hero_content": {
+      "type": "text"
+    }
+  }
+}

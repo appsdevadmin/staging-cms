@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_gas_management_teams",
+  "info": {
+    "displayName": "management_team"
+  },
+  "options": {},
+  "attributes": {
+    "team_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "full_name": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "linkedin_link": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_data_what_we_do_sections",
+  "info": {
+    "displayName": "what_we_do_section"
+  },
+  "options": {},
+  "attributes": {
+    "top_section": {
+      "displayName": "top_section",
+      "type": "component",
+      "repeatable": false,
+      "component": "data.top-section"
+    },
+    "middle_section": {
+      "displayName": "middle_section",
+      "type": "component",
+      "repeatable": false,
+      "component": "data.middle-section"
+    },
+    "bottom_section": {
+      "displayName": "bottom_section",
+      "type": "component",
+      "repeatable": false,
+      "component": "data.bottom-section"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_other_section_alts",
+  "info": {
+    "displayName": "section_alt"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_data_businesses_sections",
+  "info": {
+    "displayName": "businesses_section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

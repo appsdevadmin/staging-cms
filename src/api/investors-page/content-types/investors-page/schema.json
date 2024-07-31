@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "investors_pages",
+  "info": {
+    "singularName": "investors-page",
+    "pluralName": "investors-pages",
+    "displayName": "Investors Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero_investors": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hero.about-hero"
+    },
+    "investment_opportunities": {
+      "displayName": "investment_opportunities",
+      "type": "component",
+      "repeatable": false,
+      "component": "data.investment-opportunities"
+    },
+    "investments_blocks": {
+      "displayName": "investment_blocks",
+      "type": "component",
+      "repeatable": true,
+      "component": "data.investment-blocks"
+    },
+    "career_opportunities": {
+      "displayName": "career_opportunities",
+      "type": "component",
+      "repeatable": false,
+      "component": "data.career-opportunities"
+    }
+  }
+}

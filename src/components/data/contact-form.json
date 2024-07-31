@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_data_contact_forms",
+  "info": {
+    "displayName": "contact_form",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "section_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "cta_text": {
+      "type": "string"
+    },
+    "purpose_of_contact": {
+      "type": "text"
+    }
+  }
+}

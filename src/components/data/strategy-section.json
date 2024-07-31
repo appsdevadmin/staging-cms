@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_data_strategy_sections",
+  "info": {
+    "displayName": "strategy_section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "inner_title": {
+      "type": "string"
+    },
+    "inner_block_1_text": {
+      "type": "text"
+    },
+    "inner_block_2_text": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+nssm stop strapi-cms
+git restore .
+git pull
+yarn install
+yarn restore
+yarn build
+nssm start strapi-cms

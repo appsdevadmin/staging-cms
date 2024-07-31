@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "team_members",
+  "info": {
+    "singularName": "team-member",
+    "pluralName": "team-members",
+    "displayName": "Leaderships",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "leadership": {
+      "type": "component",
+      "repeatable": true,
+      "component": "data.leaderships"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_data_business_links",
+  "info": {
+    "displayName": "business_links",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

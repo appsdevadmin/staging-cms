@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_data_value_blocks",
+  "info": {
+    "displayName": "value_blocks",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "text"
+    }
+  }
+}

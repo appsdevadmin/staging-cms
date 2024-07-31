@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_growth_icons",
+  "info": {
+    "displayName": "icons"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "text"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

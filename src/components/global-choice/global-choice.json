@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_global_choice_global_choices",
+  "info": {
+    "displayName": "global_choice"
+  },
+  "options": {},
+  "attributes": {
+    "section_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "text"
+    },
+    "sub_title": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

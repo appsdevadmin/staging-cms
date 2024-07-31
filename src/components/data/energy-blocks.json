@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_data_energy_blocks",
+  "info": {
+    "displayName": "energy_blocks"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_other_items_items",
+  "info": {
+    "displayName": "items",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "cta_text": {
+      "type": "string"
+    },
+    "cta_link": {
+      "type": "text"
+    }
+  }
+}

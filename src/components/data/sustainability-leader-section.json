@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_data_sustainability_leader_sections",
+  "info": {
+    "displayName": "sustainability_leader_section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "section_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "content": {
+      "type": "text"
+    }
+  }
+}

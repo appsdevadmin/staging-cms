@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_gas_addresses",
+  "info": {
+    "displayName": "addresses",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "address": {
+      "type": "string"
+    },
+    "cta_text": {
+      "type": "string"
+    },
+    "map_link": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

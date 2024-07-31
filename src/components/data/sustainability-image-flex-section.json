@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_data_sustainability_image_flex_sections",
+  "info": {
+    "displayName": "Sustainability Image Flex Section"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "text"
+    },
+    "section_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

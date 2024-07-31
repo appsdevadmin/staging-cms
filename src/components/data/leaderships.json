@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_data_leaderships",
+  "info": {
+    "displayName": "leaderships",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "member_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "team_category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::team-category.team-category"
+    },
+    "linkedIn_link": {
+      "type": "string",
+      "default": "#"
+    },
+    "description": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    }
+  }
+}

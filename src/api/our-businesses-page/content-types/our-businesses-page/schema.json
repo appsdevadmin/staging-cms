@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "our_businesses_pages",
+  "info": {
+    "singularName": "our-businesses-page",
+    "pluralName": "our-businesses-pages",
+    "displayName": "Businesses Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "businesses_hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hero.about-hero"
+    },
+    "businesses_section": {
+      "displayName": "businesses_section",
+      "type": "component",
+      "repeatable": false,
+      "component": "data.businesses-section"
+    },
+    "contact_us_section": {
+      "displayName": "contact_us_section",
+      "type": "component",
+      "repeatable": false,
+      "component": "data.contact-us-section"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

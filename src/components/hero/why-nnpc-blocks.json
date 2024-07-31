@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_hero_why_nnpc_blocks",
+  "info": {
+    "displayName": "why nnpc blocks"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "block_1_title": {
+      "type": "string"
+    },
+    "block_1_description": {
+      "type": "string"
+    },
+    "block_2_title": {
+      "type": "string"
+    },
+    "block_2_description": {
+      "type": "string"
+    }
+  }
+}

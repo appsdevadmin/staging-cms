@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_data_investment_blocks",
+  "info": {
+    "displayName": "investment_blocks"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "section_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

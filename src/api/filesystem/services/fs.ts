@@ -1,0 +1,5 @@
+/**
+ * folder service
+ */
+
+module.exports = () => ({});

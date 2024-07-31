@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_year_years_of_experiences",
+  "info": {
+    "displayName": "years_of_experience",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "top_title": {
+      "type": "string"
+    },
+    "years_of_experience": {
+      "type": "string"
+    },
+    "bottom_title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "section_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_data_career_opportunities",
+  "info": {
+    "displayName": "career_opportunities"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "section_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "content": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_data_mandate_inners",
+  "info": {
+    "displayName": "Mandate Inner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "tagline": {
+      "type": "string"
+    },
+    "bold_text": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "section_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

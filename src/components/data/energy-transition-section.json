@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_data_energy_transition_sections",
+  "info": {
+    "displayName": "energy_transition_section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "energy_blocks": {
+      "displayName": "energy_blocks",
+      "type": "component",
+      "repeatable": true,
+      "component": "data.energy-blocks"
+    }
+  }
+}

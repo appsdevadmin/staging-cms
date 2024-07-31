@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_data_mandate_sections",
+  "info": {
+    "displayName": "Mandate Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_diversity_diversities",
+  "info": {
+    "displayName": "diversity"
+  },
+  "options": {},
+  "attributes": {
+    "blocks": {
+      "displayName": "blocks",
+      "type": "component",
+      "repeatable": true,
+      "component": "diversity-blocks.blocks"
+    },
+    "heading": {
+      "type": "string"
+    }
+  }
+}

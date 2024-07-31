@@ -1,0 +1,50 @@
+{
+  "kind": "singleType",
+  "collectionName": "career_pages",
+  "info": {
+    "singularName": "career-page",
+    "pluralName": "career-pages",
+    "displayName": "Career Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hero.about-hero"
+    },
+    "global_choice": {
+      "displayName": "global_choice",
+      "type": "component",
+      "repeatable": false,
+      "component": "global-choice.global-choice"
+    },
+    "diversity": {
+      "displayName": "diversity",
+      "type": "component",
+      "repeatable": false,
+      "component": "diversity.diversity"
+    },
+    "growth": {
+      "displayName": "growth",
+      "type": "component",
+      "repeatable": false,
+      "component": "growth.growth"
+    },
+    "work_with_nnpc": {
+      "displayName": "work_with_nnpc",
+      "type": "component",
+      "repeatable": false,
+      "component": "work.work-with-nnpc"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

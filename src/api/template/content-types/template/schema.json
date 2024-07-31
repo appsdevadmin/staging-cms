@@ -1,0 +1,74 @@
+{
+  "kind": "collectionType",
+  "collectionName": "templates",
+  "info": {
+    "singularName": "template",
+    "pluralName": "templates",
+    "displayName": "Template",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hero.about-hero"
+    },
+    "introduction": {
+      "type": "component",
+      "repeatable": false,
+      "component": "gas.introduction"
+    },
+    "sections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "gas.sections"
+    },
+    "strategic": {
+      "type": "component",
+      "repeatable": false,
+      "component": "gas.strategic"
+    },
+    "team_members": {
+      "type": "component",
+      "repeatable": true,
+      "component": "gas.management-team"
+    },
+    "team_tab_name": {
+      "type": "string"
+    },
+    "csr": {
+      "type": "component",
+      "repeatable": false,
+      "component": "gas.csr"
+    },
+    "contact": {
+      "type": "component",
+      "repeatable": false,
+      "component": "gas.contact"
+    },
+    "page_title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "page_title",
+      "required": true
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "popup": {
+      "displayName": "csr_popup",
+      "type": "component",
+      "repeatable": false,
+      "component": "popup.csr-popup"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "history_timelines",
+  "info": {
+    "singularName": "history-timeline",
+    "pluralName": "history-timelines",
+    "displayName": "History Timelines",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "year": {
+      "type": "string"
+    },
+    "section_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "content": {
+      "type": "text"
+    },
+    "date": {
+      "type": "string"
+    }
+  }
+}
